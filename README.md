@@ -20,4 +20,4 @@ Allows users to:
 4. Filter using the filter section at the top.
 
 ## 🔗 Live Link
-[Live App]([https://<username>.github.io/travel-listing-app/](https://aanshies.github.io/travel-listing-app/))
+[Live App](https://aanshies.github.io/travel-listing-app/)
