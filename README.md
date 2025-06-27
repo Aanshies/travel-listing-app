@@ -1,8 +1,7 @@
-# travel-listing-app
-This is a frontend web application that allows users to add, view, filter, and manage travel destinations. Users can add destinations with images, prices, and descriptions, view all destinations in a clean card layout, and filter destinations by name, price range, and place for easy exploration.
-
 # Travel Listing Web App
-
+This is a frontend web application that allows users to add, view, filter, and manage travel destinations. Users can add destinations with images, prices, and descriptions, view all destinations in a clean card layout, and filter destinations by name, price range, and place for easy exploration.
+The site uses localStorage to store destination data, ensuring your added destinations remain even after refreshing or reopening the browser.
+![Travel Listing Web App Screenshot](https://github.com/user-attachments/assets/d4984caf-cb54-4311-b4ef-f29bf140916a)
 ## 🌍 What this project does
 Allows users to:
 - Add travel destinations with image, price, and description.
