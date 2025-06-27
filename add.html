@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Travel Destination</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Add Travel Destination</h1>
+    <nav>
+      <a href="index.html" class="add-button">View Destinations</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="addDestinationForm">
+      <label>Destination Name:</label>
+      <input type="text" id="name" required />
+
+      <label>Image URL:</label>
+      <input type="url" id="image" required />
+
+      <label>Price ($):</label>
+      <input type="number" id="price" required />
+
+      <label>Description:</label>
+      <textarea id="description" required></textarea>
+
+      <button type="submit">Add Destination</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

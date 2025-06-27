@@ -1,0 +1,33 @@
+<!-- travel-listing-app/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Travel Listing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Travel Destinations</h1>
+        <a href="add.html" class="add-button">+ Add Destination</a>
+    </header>
+
+    <!-- Neat hero image for visual neatness -->
+    <section class="hero">
+        <img src="https://cdn.vectorstock.com/i/500p/32/25/travel-booking-banner-template-vector-52533225.jpg" alt="Travel Banner">
+    </section>
+
+    <section id="filters">
+        <input type="text" id="filter-name" placeholder="Filter by name">
+        <input type="number" id="filter-min-price" placeholder="Min Price">
+        <input type="number" id="filter-max-price" placeholder="Max Price">
+        <input type="text" id="filter-place" placeholder="Filter by place">
+        <button id="filter-button">Apply Filters</button>
+    </section>
+
+    <section id="cards-container" class="cards-container"></section>
+
+    <script src="script.js"></script>
+</body>
+</html>
